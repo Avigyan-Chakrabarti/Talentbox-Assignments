@@ -1,2 +1,6 @@
 # Talentbox-Assignments
-This repository is about two assignments.
+This repository is about two assignments:-
+
+To take the name of an actor/actress as an input and print his/her filmography in descending order, using web scrapping method. In this program, BeautifulSoup module is used, in order to extract an information from a webpage. Here, 'actor_id.py' is used to extract the IMDB ID of the required actor/actress and 'actor.py' uses the same IMDB ID to display the filmography of the actor, extracted from his/her IMDB page in descending order. Just open the terminal and type the command - 'python actor.py'. Also, there is another program, named 'actor_app.py', which uses streamlit module to display the filmography of actors in a web page. In order to run that app, just open terminal and write the command - 'streamlit run actor_app.py'.
+
+To create an ML algorithm on the list of exoplanets discovered by Kepler and use the algorithm to clasify the planets as Candidate/False Positive/Confirmed. This ML code is created usimng jupyter notebook, and although many classification algorithms are used like KNN, Gaussian Naive Bayes, Logistic Regression, Random Forest, etc, still we used Random Forest, since it is the most accurate of all.
